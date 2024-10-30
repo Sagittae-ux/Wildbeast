@@ -7,24 +7,30 @@
       content="width=device-width, initial-scale=1.0"
       shrink-to-fit="no"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Wildbeast</title>
   </head>
   <body>
     <div class="estrutura">
-      <header class="header">
+      <header class="header padding">
         <a href="#" class="logo"
           ><img src="/img/wildbeast.svg" alt="Wildbeast"
         /></a>
         <nav>
-          <ul>
+          <ul class="font-link">
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Animais</a></li>
             <li><a href="#">Contato</a></li>
           </ul>
         </nav>
       </header>
-      <nav class="sidenav">
+      <nav class="sidenav padding">
         <ul>
           <li>
             <a href="#"><img src="/img/icones/cervo.svg" alt="cervo" /></a>
@@ -46,7 +52,7 @@
           </li>
         </ul>
       </nav>
-      <main class="content">
+      <main class="content padding">
         <div class="titulo">
           <h1>Lobo Cinza</h1>
           <span>Da família Canis Lupus</span>
@@ -61,18 +67,19 @@
             <span class="rotulo">age</span>
           </div>
         </div>
-        <p>
+        <p class="col-wide">
           É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
           cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos
           genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.
         </p>
 
-        <img src="/img/wolf1.jpg" alt="Wolf 1" />
-        <p>
+        <img class="row-tall" src="/img/wolf1.jpg" alt="Wolf 1" />
+
+        <p class="destaque">
           É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior,
           cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos
         </p>
-        <img src="/img/wolf1.jpg" alt="Wolf 2" />
+        <img class="grid-img" src="/img/wolf2.jpg" alt="Wolf 2" />
         <p>
           O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a
           aumentar proporcionakmente com a latitude, como previsto pela teoria
@@ -86,11 +93,13 @@
           encontrados no Alasca, Canadá, [8] e na antiga União Soviética.
         </p>
 
-        <blockquote class="citacao">
-          "Há algo no uivar do lobo que tira um homem do aqui e agora e o
-          transporta para uma floresta da mente."
+        <blockquote class="citacao padding col-wide">
+          <p>
+            "Há algo no uivar do lobo que tira um homem do aqui e agora e o
+            transporta para uma floresta da mente."
+          </p>
         </blockquote>
-        <ul class="atributos">
+        <ul class="atributos padding">
           <li>Surgiu: 12.000 anos</li>
           <li>Tipo: Mamífero</li>
           <li>Idade Média: 13 anos</li>
@@ -114,9 +123,9 @@
           </p>
         </div>
 
-        <img src="/img/wolf3.jpg" alt="Wolf 3" />
+        <img class="col-wide" src="/img/wolf3.jpg" alt="Wolf 3" />
       </main>
-      <aside class="anuncios">
+      <aside class="anuncios padding">
         <div class="anuncio-item">
           <img src="/img/anuncio-1.jpg" alt="anúncio" />
         </div>
@@ -124,7 +133,7 @@
           <img src="/img/anuncio-2.jpg" alt="anúncio" />
         </div>
       </aside>
-      <footer class="footer">
+      <footer class="footer padding font-link">
         <p>Wildbeast, Alguns direitos reservados.</p>
       </footer>
     </div>
